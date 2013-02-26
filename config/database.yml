@@ -48,7 +48,7 @@ test:
   encoding: unicode
   database: noisemap_test
   pool: 5
-  username: noisemap
+  username: postgresql
   password:
 
 production:
