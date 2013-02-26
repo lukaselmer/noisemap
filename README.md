@@ -1,9 +1,9 @@
 noisemap
 ========
 
-[![Code Climate](https://codeclimate.com/github/lukaselmer/noisemap.png)](https://codeclimate.com/github/lukaselmer/noisemap)
 [![Build Status](https://travis-ci.org/lukaselmer/noisemap.png?branch=master)](https://travis-ci.org/lukaselmer/noisemap)
-
+[![Code Climate](https://codeclimate.com/github/lukaselmer/noisemap.png)](https://codeclimate.com/github/lukaselmer/noisemap)
+[![Dependency Status](https://gemnasium.com/lukaselmer/noisemap.png)](https://gemnasium.com/lukaselmer/noisemap)
 
 Things you may want to cover:
 
