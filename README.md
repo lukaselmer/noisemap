@@ -1,6 +1,10 @@
 noisemap
 ========
 
+[![Code Climate](https://codeclimate.com/github/lukaselmer/noisemap.png)](https://codeclimate.com/github/lukaselmer/noisemap)
+
+
+
 Things you may want to cover:
 
 * Ruby version
