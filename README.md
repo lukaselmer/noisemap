@@ -6,12 +6,19 @@ noisemap
 [![Dependency Status](https://gemnasium.com/lukaselmer/noisemap.png)](https://gemnasium.com/lukaselmer/noisemap)
 [![Still Maintained](https://a248.e.akamai.net/camo.github.com/9c977523be7fce95c026a1b7d9673903f82e59cd/687474703a2f2f7374696c6c6d61696e7461696e65642e636f6d2f7374696c6c6d61696e7461696e65642f7374696c6c6d61696e7461696e65642e706e67)](http://stillmaintained.com/lukaselmer/noisemap)
 
-http://noisemap.herokuapp.com/
+Live System: http://noisemap.herokuapp.com/
 
 
-Deployment:
+Setting up heroku deployment on new machine
+
+```sh
 git remote add heroku git@heroku.com:noisemap.git
 git push heroku remote
+```
+
+Ruby version: 2.0.0-p0
+
+
 
 Things you may want to cover:
 
