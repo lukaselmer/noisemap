@@ -3,6 +3,7 @@ rvm:
   - "2.0.0"
 before_install:
   - rm Gemfile.lock
+  - bundle update
 before_script:
   - cp config/database.travis.yml config/database.yml
   - psql -c 'create database noisemap_test;' -U postgres
