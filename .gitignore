@@ -39,3 +39,4 @@ pickle-email-*.html
 .DS_Store
 config/application.yml
 
+/public/assets/*
