@@ -40,3 +40,5 @@ pickle-email-*.html
 config/application.yml
 
 /public/assets/*
+
+/config/database.yml
