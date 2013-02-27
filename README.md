@@ -8,6 +8,11 @@ noisemap
 
 http://noisemap.herokuapp.com/
 
+
+Deployment:
+git remote add heroku git@heroku.com:noisemap.git
+git push heroku remote
+
 Things you may want to cover:
 
 * Ruby version
