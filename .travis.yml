@@ -2,7 +2,7 @@ language: ruby
 rvm:
   - "2.0.0"
 before_install:
-  - rvm use 2.0.0-p0 --install --binary
+  - rvm use 2.0.0-p0 --install --binary --verify-downloads 1
   - gem install bundler
   - cp Gemfile.unix.lock Gemfile.lock
 before_script:
