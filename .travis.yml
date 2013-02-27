@@ -2,7 +2,7 @@ language: ruby
 rvm:
   - "2.0.0"
 before_install:
-  - rm lukaselmer/noisemap/Gemfile.lock
+  - rm Gemfile.lock
 before_script:
   - cp config/database.travis.yml config/database.yml
   - psql -c 'create database noisemap_test;' -U postgres
