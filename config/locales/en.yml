@@ -320,7 +320,7 @@ en:
   pages:
     index:
       content: Index Content, see http://twitter.github.com/bootstrap/base-css.html
-      title: Welcome to Noisemap
+      title: Noisemap
   support:
     array:
       last_word_connector: ', and '
