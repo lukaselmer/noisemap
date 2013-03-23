@@ -7,6 +7,7 @@ gem 'devise'
 gem 'bootstrap-sass'
 gem 'formtastic-bootstrap'
 gem 'rails-i18n'
+gem 'localeapp'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.beta1'
