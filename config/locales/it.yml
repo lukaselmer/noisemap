@@ -258,6 +258,11 @@ it:
         one: 'Non posso salvare questo %{model}: 1 errore'
         other: 'Non posso salvare questo %{model}: %{count} errori.'
   helpers:
+    page_entries_info:
+      more_pages:
+        display_entries: 
+      one_page:
+        display_entries: 
     select:
       prompt: Per favore, seleziona
     submit:
@@ -290,6 +295,7 @@ it:
           quadrillion: Biliardi
           thousand: Mila
           trillion: Bilioni
+          unit: ''
       format:
         delimiter: ''
         precision: 1
@@ -311,6 +317,10 @@ it:
     precision:
       format:
         delimiter: ''
+  pages:
+    index:
+      content: 
+      title: 
   support:
     array:
       last_word_connector: ' e '
@@ -323,6 +333,13 @@ it:
       long: '%d %B %Y %H:%M'
       short: '%d %b %H:%M'
     pm: pm
+  views:
+    pagination:
+      first: 
+      last: 
+      next: 
+      previous: 
+      truncate: 
   will_paginate:
     next_label: successivo →
     page_entries_info:
@@ -332,7 +349,3 @@ it:
       single_page_html: 
     page_gap: '&hellip;'
     previous_label: ← precedente
-  pages:
-    index:
-      content: 
-      title: 

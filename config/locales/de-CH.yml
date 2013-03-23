@@ -240,6 +240,14 @@ de-CH:
         one: 'Konnte %{model} nicht speichern: ein Fehler.'
         other: 'Konnte %{model} nicht speichern: %{count} Fehler.'
   helpers:
+    page_entries_info:
+      more_pages:
+        display_entries: Zeige %{entry_name} <b>%{first}&nbsp;-&nbsp;%{last}</b> von insgesamt <b>%{total}</b>
+      one_page:
+        display_entries:
+          one: Zeige <b>%{count}</b> %{entry_name}
+          other: Zeige <b>alle %{count}</b> %{entry_name}
+          zero: Kein %{entry_name} gefunden
     select:
       prompt: Bitte wählen
     submit:
@@ -276,6 +284,7 @@ de-CH:
             other: Billiarden
           thousand: Tausend
           trillion: Billionen
+          unit: ''
       format:
         delimiter: ''
         precision: 1
@@ -297,6 +306,10 @@ de-CH:
     precision:
       format:
         delimiter: ''
+  pages:
+    index:
+      content: 
+      title: 
   support:
     array:
       last_word_connector: ' und '
@@ -309,6 +322,13 @@ de-CH:
       long: '%A, %d. %B %Y, %H:%M Uhr'
       short: '%d. %B, %H:%M Uhr'
     pm: nachmittags
+  views:
+    pagination:
+      first: « Start
+      last: Ende »
+      next: Weiter »
+      previous: '&lsaquo; Zurück'
+      truncate: '&hellip;'
   will_paginate:
     next_label: Weiter →
     page_entries_info:
@@ -324,7 +344,3 @@ de-CH:
         zero: Kein(e) %{model} gefunden
     page_gap: '&hellip;'
     previous_label: ← Vorige
-  pages:
-    index:
-      content: 
-      title: 

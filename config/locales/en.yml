@@ -1,26 +1,26 @@
 en:
   activemodel:
     errors:
-      format: 
+      format: '%{attribute} %{message}'
       messages:
-        accepted: 
-        blank: 
-        confirmation: 
-        empty: 
-        equal_to: 
-        even: 
-        exclusion: 
-        greater_than: 
-        greater_than_or_equal_to: 
-        inclusion: 
-        invalid: 
-        less_than: 
-        less_than_or_equal_to: 
-        not_a_number: 
-        not_an_integer: 
-        odd: 
-        record_invalid: 
-        taken: 
+        accepted: must be accepted
+        blank: can't be blank
+        confirmation: doesn't match confirmation
+        empty: can't be empty
+        equal_to: must be equal to %{count}
+        even: must be even
+        exclusion: is reserved
+        greater_than: must be greater than %{count}
+        greater_than_or_equal_to: must be greater than or equal to %{count}
+        inclusion: is not included in the list
+        invalid: is invalid
+        less_than: must be less than %{count}
+        less_than_or_equal_to: must be less than or equal to %{count}
+        not_a_number: is not a number
+        not_an_integer: must be an integer
+        odd: must be odd
+        record_invalid: 'Validation failed: %{errors}'
+        taken: has already been taken
         too_long:
           one: is too long (maximum is 1 character)
           other: is too long (maximum is %{count} characters)
@@ -31,15 +31,15 @@ en:
           one: is the wrong length (should be 1 character)
           other: is the wrong length (should be %{count} characters)
       template:
-        body: 
+        body: 'There were problems with the following fields:'
         header:
           one: 1 error prohibited this %{model} from being saved
           other: '%{count} errors prohibited this %{model} from being saved'
   activerecord:
     errors:
-      format: 
+      format: '%{attribute} %{message}'
       messages:
-        accepted: 
+        accepted: must be accepted
         blank: can't be blank
         confirmation: doesn't match confirmation
         empty: can't be empty
@@ -258,6 +258,11 @@ en:
         one: 1 error prohibited this %{model} from being saved
         other: '%{count} errors prohibited this %{model} from being saved'
   helpers:
+    page_entries_info:
+      more_pages:
+        display_entries: 
+      one_page:
+        display_entries: 
     select:
       prompt: Please select
     submit:
@@ -290,6 +295,7 @@ en:
           quadrillion: Quadrillion
           thousand: Thousand
           trillion: Trillion
+          unit: ''
       format:
         delimiter: ''
         precision: 3
@@ -311,6 +317,10 @@ en:
     precision:
       format:
         delimiter: ''
+  pages:
+    index:
+      content: Index Content, see http://twitter.github.com/bootstrap/base-css.html
+      title: Welcome to Noisemap
   support:
     array:
       last_word_connector: ', and '
@@ -323,6 +333,13 @@ en:
       long: '%B %d, %Y %H:%M'
       short: '%d %b %H:%M'
     pm: pm
+  views:
+    pagination:
+      first: 
+      last: 
+      next: 
+      previous: 
+      truncate: 
   will_paginate:
     next_label: Next &#8594;
     page_entries_info:
@@ -338,7 +355,3 @@ en:
         zero: No %{model} found
     page_gap: '&hellip;'
     previous_label: '&#8592; Previous'
-  pages:
-    index:
-      title: 'New Project: Noisemap'
-      content: Index Content, see http://twitter.github.com/bootstrap/base-css.html
