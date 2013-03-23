@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 
+  street: MyString
+  place: MyString
+  categories: MyString
+  paid_reference: MyString
+  status: MyString
+  webservice_status: MyString
+  kickback_reference: MyString
+
+two:
+  user_id: 
+  street: MyString
+  place: MyString
+  categories: MyString
+  paid_reference: MyString
+  status: MyString
+  webservice_status: MyString
+  kickback_reference: MyString

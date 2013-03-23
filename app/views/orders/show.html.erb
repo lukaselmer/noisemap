@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @order.user %>
+</p>
+
+<p>
+  <strong>Street:</strong>
+  <%= @order.street %>
+</p>
+
+<p>
+  <strong>Place:</strong>
+  <%= @order.place %>
+</p>
+
+<p>
+  <strong>Categories:</strong>
+  <%= @order.categories %>
+</p>
+
+<p>
+  <strong>Paid reference:</strong>
+  <%= @order.paid_reference %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @order.status %>
+</p>
+
+<p>
+  <strong>Webservice status:</strong>
+  <%= @order.webservice_status %>
+</p>
+
+<p>
+  <strong>Kickback reference:</strong>
+  <%= @order.kickback_reference %>
+</p>
+
+
+<%= link_to 'Edit', edit_order_path(@order) %> |
+<%= link_to 'Back', orders_path %>

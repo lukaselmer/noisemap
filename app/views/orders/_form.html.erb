@@ -1,0 +1,20 @@
+<%= semantic_form_for(@order) do |f| %>
+    <%# if @order.errors.any? >
+        <div id="error_explanation">
+          <h2><%= pluralize(@order.errors.count, "error") > prohibited this order from being saved:</h2>
+
+          <ul>
+            <% @order.errors.full_messages.each do |msg| >
+                <li><%= msg ></li>
+            <% end >
+          </ul>
+        </div>
+    <% end %>
+
+    <% fields = [:user, :categories, :street, :place, :paid_reference, :status, :webservice_status, :kickback_reference] %>
+
+    <%= f.semantic_errors *fields %>
+    <%= f.inputs *fields %>
+
+    <%= f.actions %>
+<% end %>

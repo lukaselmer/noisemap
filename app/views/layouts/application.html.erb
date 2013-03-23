@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Noisemap</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-</head>
+  <%= render 'layouts/header' %></head>
 <body>
 
-<%= yield %>
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <%= render 'layouts/navi' %>
+</div>
+
+<p class="notice"><%= notice %></p>
+
+<p class="alert"><%= alert %></p>
+
+<div class="container main-content">
+  <div class="row">
+    <%= yield %>
+  </div>
+</div>
+
+
+<%= render 'layouts/footer' %>
+
+
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
 </body>
 </html>

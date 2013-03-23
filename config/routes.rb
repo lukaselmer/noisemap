@@ -1,6 +1,10 @@
 Noisemap::Application.routes.draw do
+  resources :orders
+
+  devise_for :users
   get "pages/index"
   get "pages/legal"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
