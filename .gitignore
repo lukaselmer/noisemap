@@ -42,3 +42,4 @@ config/application.yml
 /public/assets/*
 
 /config/database.yml
+.env
