@@ -72,6 +72,7 @@ fr:
           one: 'Impossible d''enregistrer ce(tte) %{model} : 1 erreur'
           other: 'Impossible d''enregistrer ce(tte) %{model} : %{count} erreurs'
   brand: Noisemap
+  create: 
   date:
     abbr_day_names:
     - dim
@@ -259,12 +260,18 @@ fr:
       header:
         one: 'Impossible d''enregistrer ce(tte) %{model} : 1 erreur'
         other: 'Impossible d''enregistrer ce(tte) %{model} : %{count} erreurs'
+  formtastic:
+    cancel: 
+    create: 
+    'no': 
+    required: 
+    reset: 
+    submit: 
+    update: 
+    'yes': 
+    'false': 
+    'true': 
   helpers:
-    page_entries_info:
-      more_pages:
-        display_entries: 
-      one_page:
-        display_entries: 
     select:
       prompt: Veuillez sélectionner
     submit:
@@ -272,6 +279,8 @@ fr:
       submit: Enregistrer ce(tte) %{model}
       update: Modifier ce(tte) %{model}
   home: Accueil
+  index:
+    order: 
   number:
     currency:
       format:
@@ -297,9 +306,9 @@ fr:
           quadrillion: million de milliards
           thousand: millier
           trillion: billion
-          unit: ''
+          unit: 
       format:
-        delimiter: ''
+        delimiter: 
         precision: 2
         significant: true
         strip_insignificant_zeros: true
@@ -315,14 +324,18 @@ fr:
           tb: To
     percentage:
       format:
-        delimiter: ''
+        delimiter: 
     precision:
       format:
-        delimiter: ''
+        delimiter: 
+  orders:
+    new:
+      title: 
   pages:
     index:
       content: 
       title: 
+  required: 
   support:
     array:
       last_word_connector: ' et '
@@ -335,13 +348,6 @@ fr:
       long: '%A %d %B %Y %H:%M'
       short: '%d %b %H:%M'
     pm: pm
-  views:
-    pagination:
-      first: 
-      last: 
-      next: 
-      previous: 
-      truncate: 
   will_paginate:
     next_label: suivant →
     page_entries_info:

@@ -11,7 +11,7 @@
         </div>
     <% end %>
 
-    <% fields = [:user, :categories, :street, :place, :paid_reference, :status, :webservice_status, :kickback_reference] %>
+    <% fields = [:user, :categories, :address, :paid_reference, :status, :webservice_status, :kickback_reference] %>
 
     <%= f.semantic_errors *fields %>
     <%= f.inputs *fields %>

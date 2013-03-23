@@ -1,5 +1,10 @@
-<h1>New order</h1>
+<h1><%= t('.title') %></h1>
 
-<%= render 'form' %>
+<%= semantic_form_for(@order) do |f| %>
 
-<%= link_to 'Back', orders_path %>
+    <%= f.input :address, input_html: {rows: 2} %>
+
+    <%= f.input :categories %>
+
+    <%= f.actions %>
+<% end %>

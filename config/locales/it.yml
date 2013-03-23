@@ -72,6 +72,7 @@ it:
           one: 'Non posso salvare questo %{model}: 1 errore'
           other: 'Non posso salvare questo %{model}: %{count} errori.'
   brand: Noisemap
+  create: 
   date:
     abbr_day_names:
     - dom
@@ -257,12 +258,18 @@ it:
       header:
         one: 'Non posso salvare questo %{model}: 1 errore'
         other: 'Non posso salvare questo %{model}: %{count} errori.'
+  formtastic:
+    cancel: 
+    create: 
+    'no': 
+    required: 
+    reset: 
+    submit: 
+    update: 
+    'yes': 
+    'false': 
+    'true': 
   helpers:
-    page_entries_info:
-      more_pages:
-        display_entries: 
-      one_page:
-        display_entries: 
     select:
       prompt: Per favore, seleziona
     submit:
@@ -270,6 +277,8 @@ it:
       submit: Invia %{model}
       update: Aggiorna %{model}
   home: 
+  index:
+    order: 
   number:
     currency:
       format:
@@ -295,9 +304,9 @@ it:
           quadrillion: Biliardi
           thousand: Mila
           trillion: Bilioni
-          unit: ''
+          unit: 
       format:
-        delimiter: ''
+        delimiter: 
         precision: 1
         significant: true
         strip_insignificant_zeros: true
@@ -313,14 +322,18 @@ it:
           tb: TB
     percentage:
       format:
-        delimiter: ''
+        delimiter: 
     precision:
       format:
-        delimiter: ''
+        delimiter: 
+  orders:
+    new:
+      title: 
   pages:
     index:
       content: 
       title: 
+  required: 
   support:
     array:
       last_word_connector: ' e '
@@ -333,13 +346,6 @@ it:
       long: '%d %B %Y %H:%M'
       short: '%d %b %H:%M'
     pm: pm
-  views:
-    pagination:
-      first: 
-      last: 
-      next: 
-      previous: 
-      truncate: 
   will_paginate:
     next_label: successivo →
     page_entries_info:

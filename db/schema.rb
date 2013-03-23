@@ -18,8 +18,7 @@ ActiveRecord::Schema.define(version: 20130323160822) do
 
   create_table "orders", force: true do |t|
     t.integer  "user_id"
-    t.string   "street"
-    t.string   "place"
+    t.text     "address"
     t.string   "categories"
     t.string   "paid_reference"
     t.string   "status"

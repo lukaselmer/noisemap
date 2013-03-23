@@ -72,6 +72,7 @@ en:
           one: 1 error prohibited this %{model} from being saved
           other: '%{count} errors prohibited this %{model} from being saved'
   brand: Noisemap
+  create: Create %{model}
   date:
     abbr_day_names:
     - Sun
@@ -257,12 +258,18 @@ en:
       header:
         one: 1 error prohibited this %{model} from being saved
         other: '%{count} errors prohibited this %{model} from being saved'
+  formtastic:
+    cancel: Cancel %{model}
+    create: Create %{model}
+    'no': 'No'
+    required: required
+    reset: Reset %{model}
+    submit: Submit %{model}
+    update: Update %{model}
+    'yes': 'Yes'
+    'false': 'No'
+    'true': 'Yes'
   helpers:
-    page_entries_info:
-      more_pages:
-        display_entries: 
-      one_page:
-        display_entries: 
     select:
       prompt: Please select
     submit:
@@ -270,6 +277,8 @@ en:
       submit: Save %{model}
       update: Update %{model}
   home: Home
+  index:
+    order: Order
   number:
     currency:
       format:
@@ -295,9 +304,9 @@ en:
           quadrillion: Quadrillion
           thousand: Thousand
           trillion: Trillion
-          unit: ''
+          unit: 
       format:
-        delimiter: ''
+        delimiter: 
         precision: 3
         significant: true
         strip_insignificant_zeros: true
@@ -313,14 +322,69 @@ en:
           tb: TB
     percentage:
       format:
-        delimiter: ''
+        delimiter: 
     precision:
       format:
-        delimiter: ''
+        delimiter: 
+  orders:
+    new:
+      title: New Order
   pages:
     index:
-      content: Index Content, see http://twitter.github.com/bootstrap/base-css.html
+      content: |+
+        <h3>Index Content</h3>
+
+        <p>Translate it at https://www.localeapp.com/projects/3995/translations</p>
+
+        <p>Uses twitter bootstrap, see:</p>
+        <ul>
+        <li>http://twitter.github.com/bootstrap/components.html</li>
+        <li>http://twitter.github.com/bootstrap/base-css.html</li>
+        </ul>
+
+        <p>Do things like:</p>
+
+        <div class="hero-unit">
+        <h1>Hello, world!</h1>
+        <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <p><a class="btn btn-primary btn-large">Learn more</a></p>
+        </div>
+
+        <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
+
+        <table class="table">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>First Name</th>
+                          <th>Last Name</th>
+                          <th>Username</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>1</td>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>Larry</td>
+                          <td>the Bird</td>
+                          <td>@twitter</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
       title: Noisemap
+  required: required
   support:
     array:
       last_word_connector: ', and '
@@ -333,13 +397,6 @@ en:
       long: '%B %d, %Y %H:%M'
       short: '%d %b %H:%M'
     pm: pm
-  views:
-    pagination:
-      first: 
-      last: 
-      next: 
-      previous: 
-      truncate: 
   will_paginate:
     next_label: Next &#8594;
     page_entries_info:

@@ -60,6 +60,7 @@ de-CH:
           one: 'Konnte %{model} nicht speichern: ein Fehler.'
           other: 'Konnte %{model} nicht speichern: %{count} Fehler.'
   brand: Noisemap
+  create: 
   date:
     abbr_day_names:
     - So
@@ -239,15 +240,18 @@ de-CH:
       header:
         one: 'Konnte %{model} nicht speichern: ein Fehler.'
         other: 'Konnte %{model} nicht speichern: %{count} Fehler.'
+  formtastic:
+    cancel: 
+    create: 
+    'no': 
+    required: 
+    reset: 
+    submit: 
+    update: 
+    'yes': 
+    'false': 
+    'true': 
   helpers:
-    page_entries_info:
-      more_pages:
-        display_entries: Zeige %{entry_name} <b>%{first}&nbsp;-&nbsp;%{last}</b> von insgesamt <b>%{total}</b>
-      one_page:
-        display_entries:
-          one: Zeige <b>%{count}</b> %{entry_name}
-          other: Zeige <b>alle %{count}</b> %{entry_name}
-          zero: Kein %{entry_name} gefunden
     select:
       prompt: Bitte wählen
     submit:
@@ -255,6 +259,8 @@ de-CH:
       submit: '%{model} speichern'
       update: '%{model} aktualisieren'
   home: Startseite
+  index:
+    order: 
   number:
     currency:
       format:
@@ -284,9 +290,9 @@ de-CH:
             other: Billiarden
           thousand: Tausend
           trillion: Billionen
-          unit: ''
+          unit: 
       format:
-        delimiter: ''
+        delimiter: 
         precision: 1
         significant: true
         strip_insignificant_zeros: true
@@ -302,14 +308,18 @@ de-CH:
           tb: TB
     percentage:
       format:
-        delimiter: ''
+        delimiter: 
     precision:
       format:
-        delimiter: ''
+        delimiter: 
+  orders:
+    new:
+      title: 
   pages:
     index:
       content: 
       title: 
+  required: 
   support:
     array:
       last_word_connector: ' und '
@@ -322,13 +332,6 @@ de-CH:
       long: '%A, %d. %B %Y, %H:%M Uhr'
       short: '%d. %B, %H:%M Uhr'
     pm: nachmittags
-  views:
-    pagination:
-      first: « Start
-      last: Ende »
-      next: Weiter »
-      previous: '&lsaquo; Zurück'
-      truncate: '&hellip;'
   will_paginate:
     next_label: Weiter →
     page_entries_info:

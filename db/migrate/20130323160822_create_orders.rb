@@ -2,8 +2,7 @@ class CreateOrders < ActiveRecord::Migration
   def change
     create_table :orders do |t|
       t.references :user, index: true
-      t.string :street
-      t.string :place
+      t.text :address
       t.string :categories
       t.string :paid_reference
       t.string :status
