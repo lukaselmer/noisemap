@@ -1,6 +1,7 @@
 class Order < ActiveRecord::Base
   belongs_to :user
 
+  serialize :categories, Array
   validates :categories, presence: true
   validates_with AddressValidator
 

@@ -4,8 +4,7 @@
   <thead>
     <tr>
       <th>User</th>
-      <th>Street</th>
-      <th>Place</th>
+      <th>Address</th>
       <th>Categories</th>
       <th>Paid reference</th>
       <th>Status</th>
@@ -21,8 +20,7 @@
     <% @orders.each do |order| %>
     <tr>
       <td><%= order.user %></td>
-      <td><%= order.street %></td>
-      <td><%= order.place %></td>
+      <td><%= order.address %></td>
       <td><%= order.categories %></td>
       <td><%= order.paid_reference %></td>
       <td><%= order.status %></td>
