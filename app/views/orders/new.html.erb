@@ -4,7 +4,7 @@
 
     <%= f.input :address, input_html: {rows: 2} %>
 
-    <%= f.input :categories %>
+    <%= f.input :categories, as: :check_boxes, collection: Order::CATEGORIES.invert %>
 
     <%= f.actions %>
 <% end %>
