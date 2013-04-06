@@ -125,3 +125,4 @@ DEPENDENCIES
   therubyracer
   turbolinks
   uglifier (>= 1.0.3)
+
